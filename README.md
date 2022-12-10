@@ -1,2 +1,2 @@
 # exercicios
-Exercícios que eu desenvolvi visando melhorar minhas habilidades
+Exercícios que eu desenvolvi visando melhorar minhas habilidades com PHP
