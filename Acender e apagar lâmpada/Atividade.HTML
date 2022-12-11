@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<HTML>
+<HEAD>
+<meta charset = “UTF-8”>
+<TITLE>Seja bem vindo!</title>
+<style>
+body{background-color: #9FA8DA;
+}
+
+p{color: #FFA726;
+font-family: calibri;
+font-size: 28px;
+}
+</style>
+</head>
+<body>
+
+<script>
+ var nome;
+  nome = window.prompt("Informe seu nome:");
+  window.alert("Seja bem vindo " + nome + "!");
+</script>
+
+<p>
+ <p id = "f">1 - Começo agora a escrever meu futuro, pois são as minhas ações no presente que irão definir o amanhã.</p>
+ <button type="button" onclick ="document.getElementById('f').style.display='none'">Ocultar</button>
+ <button type="button" onclick ="document.getElementById('f').style.display='block'">Mostrar</button>
+</p>
+
+<p>
+ <p id = "r">2 - O futuro é imprevisível, mas tenho a certeza de que as escolhas que faço agora irão ditar o meu destino.</p>
+ <button type="button" onclick ="document.getElementById('r').style.display='none'">Ocultar</button>
+ <button type="button" onclick ="document.getElementById('r').style.display='block'">Mostrar</button>
+</p>
+
+ <p>
+ <p id = "a">3 - O tempo corre e o seu futuro começa agora, por isso, não deixe seus sonhos para amanhã.</p>
+ <button type="button" onclick ="document.getElementById('a').style.display='none'">Ocultar</button>
+ <button type="button" onclick ="document.getElementById('a').style.display='block'">Mostrar</button>
+</p>
+
+ <p>Seu futuro terá o brilho de uma lâmpada</p>
+ <p>
+ <button type="button" onclick ="document.getElementById('s').src = 'acesa.gif'">Acender</button>Ou 
+ <img id = "s" src="apagada.gif" >
+ <button type="button" onclick ="document.getElementById('s').src ='apagada.gif'">Apagar</button>
+</p>
+
+</body> 
+</html>
