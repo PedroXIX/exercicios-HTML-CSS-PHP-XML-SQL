@@ -1,0 +1,180 @@
+body {
+	margin: auto;
+	padding: 0px;
+	font-family:'Calibri';
+	font-size: 14px;	
+}
+
+.fundovermelho {
+	background-color: #ff0000;
+}
+.fundoverde {
+	background-color: #00ff00;
+}
+.fundoamarelo {
+	background-color: #fffb00;
+}
+.fundoazul {
+	background-color: #0000ff;
+}
+
+.coluna-1 {
+	width: 1.2%;
+	height:4%;
+	float: left;
+}
+
+.coluna-2 {
+	width: 16.6%;
+	height:4%;
+	float: left;
+}
+
+.coluna-3{
+	width: 25%;
+	height:4%;	
+	float: left;
+}
+	
+.coluna-4{
+	width: 33.3%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-5{
+	width: 41.6%;
+	height:4%;	
+	float: left;
+}
+
+
+.coluna-6{
+	width: 50%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-7{
+	width: 58.3%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-8{
+	width: 66.6%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-9{
+	width: 75%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-10{
+	width: 83.3%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-11{
+	width: 91.6%;
+	height:4%;	
+	float: left;
+}
+
+.coluna-12{
+	width: 100%;
+	height:4%;	
+}
+
+.titulo{
+	font-size: 45px;
+	font-size: bold;
+	color:#0000ff;
+}
+
+.linha{
+	width: 100%;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.botao{
+width:100px;	
+padding-top:3%;
+padding-bottom: 3%;
+border-radius:10px;
+}
+
+.botao-ok{
+	background-color: #1d8f1d;
+	color:white;
+}
+
+.botao-limpar{
+	background-color: #a8a60b;
+	color:white;
+}
+
+.botao-erro{
+	background-color: #910909;
+	color:white;
+}
+
+.botao-aviso{
+	background-color: #084e8f;
+	color:white;
+}
+
+.botao-info{
+	background-color:rgb(14, 125, 194);
+	color:white;
+}
+
+.botao-xml{
+	background-color:rgb(130, 89, 206);
+	color:white;
+}
+
+/*texto*/
+.direita{
+	text-align: right;
+}
+
+.esquerda{
+	text-align: left;
+}
+
+.centro{
+	text-align: center;
+}
+
+.topo{
+	vertical-align: top;
+
+}
+
+.meio{
+	vertical-align: middle;
+}
+
+.fundo{
+	vertical-align: bottom;
+}
+
+/*estilos*/
+.negrito{
+	font-weight: bold;
+}
+
+.padsup3{
+padding-top: 3%;
+}
+
+
+/* no css o . é para classes comuns e o # para classes direcionadas*/
+/* WIDTH: campos 1: 1.2% - 2: 16.6% 3: 25% 4: 33.3% 5: 41.6 6: 50% 7: 58.3% 8: 66.6% 9: 75% 10: 83.3% 11:91.6% 12: 100%*/
+/* Pad: parte de dentro e Margin: parte de fora */ 
