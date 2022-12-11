@@ -1,0 +1,16 @@
+body{background-image: url("forest.JPG");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;}
+
+table{background-color: #EFFBFB}
+
+p{font-family: arial;
+	font-size: 14px}
+
+	.box{
+		width:40%;
+		height:42%;
+		background-color:rgb(252, 249, 249);
+		border-radius: 10px;
+		padding:10px;
+		}
